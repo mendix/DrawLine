@@ -2,7 +2,7 @@
   "name": "DrawLine",
   "version": "1.2.0",
   "description": "",
-  "license": "",
+  "license": "Apache License, Version 2",
   "author": "",
   "private": true,
   "dependencies": {},
