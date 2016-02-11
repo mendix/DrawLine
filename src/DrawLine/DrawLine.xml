@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="DrawLine.widget.DrawLine" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Line</name>
+    <description>A line to separate components from each other</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADPSURBVDjL3VIxCsJAEJyTaCmIYCFWfsMuviNPsAzkB/7E3gdob2+V1kKwsUmOmLu9c+8wASVocalcWGY5dmdmlxPWWoTEAIERNUWWZa0VIkJd16iqClJKn2VZ+iyKwmOe58L1itAVWgdpmtpfqs37q6dnB0mS2C+qxKonxtUnQT8OtvvbYTEdxl0NRBbaGChGpcBIeGjgfJHH3Wa59gRueDZut4ExFmTcIKcWjG4Q0JHhOvKk88kofrvB9a46lRRPKybQ2nii3m8Q/JX/gOAJ1Om5dnjvy8QAAAAASUVORK5CYII=</icon>
+
+    <properties>
+        <property key="width" type="integer" defaultValue="100">
+            <caption>Length</caption>
+            <category>Layout</category>
+            <description>The length of the line</description>
+        </property>
+        <property key="widthType" type="enumeration" defaultValue="procent">
+            <caption>Length type</caption>
+            <category>Layout</category>
+            <description>The output definition of the line</description>
+            <enumerationValues>
+                <enumerationValue key="pixel">Pixel</enumerationValue>
+                <enumerationValue key="procent">Procent</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="thickness" type="integer" defaultValue="1">
+            <caption>Thickness (px)</caption>
+            <category>Layout</category>
+            <description>The thickness of the line in pixels</description>
+        </property>
+        <property key="align" type="enumeration" required="true" defaultValue="center">
+            <caption>Horizontal Align</caption>
+            <category>Layout</category>
+            <description>The alignment of the line</description>
+            <enumerationValues>
+                <enumerationValue key="left">Left</enumerationValue>
+                <enumerationValue key="center">Center</enumerationValue>
+                <enumerationValue key="right">Right</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="color" type="string" required="true" defaultValue="#808080">
+            <caption>Color</caption>
+            <category>Layout</category>
+            <description>The color of the line</description>
+        </property>
+    </properties>
+</widget>
