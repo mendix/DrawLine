@@ -16,7 +16,7 @@
             <description>The output definition of the line</description>
             <enumerationValues>
                 <enumerationValue key="pixel">Pixel</enumerationValue>
-                <enumerationValue key="procent">Procent</enumerationValue>
+                <enumerationValue key="procent">Percent</enumerationValue>
             </enumerationValues>
         </property>
         <property key="thickness" type="integer" defaultValue="1">
@@ -34,7 +34,7 @@
                 <enumerationValue key="right">Right</enumerationValue>
             </enumerationValues>
         </property>
-        <property key="color" type="string" required="true" defaultValue="#808080">
+        <property key="color" type="string" required="false" defaultValue="">
             <caption>Color</caption>
             <category>Layout</category>
             <description>The color of the line</description>
